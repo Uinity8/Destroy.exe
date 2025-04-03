@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: 기능 요청
-title: "[Feat]"
+title: "[Feat]-"
 labels: ''
 assignees: ''
 

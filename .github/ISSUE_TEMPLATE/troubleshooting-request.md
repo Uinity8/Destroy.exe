@@ -1,7 +1,7 @@
 ---
 name: TroubleShooting request
 about: 트러블슈팅 리포트
-title: "[TS]"
+title: "[TS]-"
 labels: ''
 assignees: ''
 
