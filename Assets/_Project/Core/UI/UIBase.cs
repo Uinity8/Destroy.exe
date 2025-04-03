@@ -2,7 +2,6 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 using DefaultNamespace;
-using Scripts.UI;
 using TMPro;
 using UnityEngine.UI;
 
@@ -33,13 +32,12 @@ public abstract class UIBase : MonoBehaviour
     /// </summary>
     protected virtual void OnShow()
     {
-        Debug.Log($"{gameObject.name} Shown");
     }
 
     /// <summary>
     /// UI 비활성화
     /// </summary>
-    public virtual void Hide()
+    public void Hide()
     {
         OnHide();
         gameObject.SetActive(false);
@@ -50,7 +48,6 @@ public abstract class UIBase : MonoBehaviour
     /// </summary>
     protected virtual void OnHide()
     {
-        Debug.Log($"{gameObject.name} Hidden");
     }
     
     // 자동 매핑 함수

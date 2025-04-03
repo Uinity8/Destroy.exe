@@ -6,7 +6,7 @@ namespace Framework
 {
     public class SceneBootstrapper : MonoBehaviour
     {
-        private static string StartingSceneName { get; set; } // 시작 씬 이름 저장
+        static string StartingSceneName { get; set; } // 시작 씬 이름 저장
 
         // 씬이 로드되기 이전 단계에 해당 메서드를 자동으로 호출하도록 지정하는 어노테이션입니다.
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
