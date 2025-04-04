@@ -1,4 +1,3 @@
-using DestroyExecute;
 using UnityEngine;
 using UnityUtils;
 
@@ -25,5 +24,5 @@ namespace Flyweight
         public virtual void OnDestroyPoolObject(Flyweight f) => Destroy(f.gameObject);
     }
 
-
+    public enum FlyweightType { }
 }
